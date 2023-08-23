@@ -9,7 +9,7 @@ const EasyAndFast = () => {
         <h3 className="text-xl text-center sm:text-left text-category sm:text-lg font-poppins font-semibold">
           Easy and Fast
         </h3>
-        <h2 className="text-xl  sm:text-5xl font-bold sm:w-[500px] pr-1 sm:pt-[15px]">
+        <h2 className="text-xl  text-center sm:text-start sm:text-5xl font-bold sm:w-[500px] pr-1 sm:pt-[15px]">
           Book your next trip in 3 easy steps
         </h2>
         <div className="justify-center flex-col items-center sm:flex-col flex">

@@ -35,12 +35,12 @@ const Landing = () => {
         <Image src={Traveller} alt="traveller" />
       </div>
       <Image
-        className="hidden sm:absolute right-0 top-0"
+        className="hidden  sm:absolute right-0 top-0"
         src={Plane}
         alt="plane"
       />
       <Image
-        className="absolute right-20 lg:right-[470px] -top-20"
+        className=" hidden sm:block absolute right-20 lg:right-[470px] -top-20"
         src={Plane}
         alt="plane"
       />
