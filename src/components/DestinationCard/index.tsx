@@ -15,9 +15,9 @@ const DestinationCard: React.FC<Props> = ({ capital, image, price, day }) => {
       style={{
         backgroundImage: `url(${image})`,
       }}
-      className={`w-[314px] h-[457px] font-base bg-cover bg-no-repeat relative shadow-card rounded-3xl`}
+      className={`w-[285px] sm:w-[314px] h-[457px] font-base bg-cover bg-no-repeat relative shadow-card rounded-3xl`}
     >
-      <div className="px-5 h-[130px] absolute bottom-0 left-0 w-full bg-white">
+      <div className="px-3 sm:px-5 h-[130px] absolute bottom-0 left-0 w-full bg-white">
         <div className="flex justify-between font-poppins mt-[27px]">
           <span>{capital}</span>
           <span>{price}</span>

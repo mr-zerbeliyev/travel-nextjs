@@ -4,7 +4,7 @@ import React from 'react'
 const Partner = () => {
   return (
     <section className="flex justify-center">
-    <div className="flex  items-center gap-[90px] mt-24">
+    <div className="flex-wrap items-center justify-center sm:flex-row flex gap-4 sm:items-center sm:gap-[90px] sm:mt-24">
       <StickerCard image="/images/axon.png" />
       <StickerCard image="/images/jetstar.png" />
       <StickerCard image="/images/expedia.png" />

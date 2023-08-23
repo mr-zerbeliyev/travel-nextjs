@@ -38,11 +38,11 @@ const GreeceCard = () => {
           </div>
         </div>
       </div>
-      <div className="absolute flex -right-20 bottom-20 bg-white rounded-xl w-[263px] h-[129px] shadow-card border py-4 pl-2">
+      <div className="md:hidden lg:block absolute flex -right-20 bottom-20 bg-white rounded-xl w-[263px] h-[129px] shadow-card border py-4 pl-2">
         <div>
           <Image className="rounded-full" src={Gurup} alt="gurup" />
         </div>
-        <div className="px-2">
+        <div className=" px-2">
           <h3 className="text-category text-sm font-poppins">Ongoing</h3>
           <p className="font-poppins text-lg">Trip to rome</p>
           <p>

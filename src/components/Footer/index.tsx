@@ -9,7 +9,7 @@ import Getiton from "@/images/getiton.png";
 const Footer = () => {
   return (
     <footer className="flex flex-col">
-      <div className="flex mt-[100px] justify-around">
+      <div className="flex-col sm:text-center items-center xl:items-start md:flex-row  md:text-center xl:text-start flex mt-[100px] sm:justify-around">
         <div className="w-[207px]">
           <h3 className="font-poppins text-[44px] font-semibold text-black">
             Jadoo.
@@ -87,7 +87,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <h3 className="text-center font-poppins text-category my-[86px] ">
+      <h3 className="text-center font-poppins text-category mt-[50px] ">
         All rights reserved@jadoo.co
       </h3>
     </footer>

@@ -12,8 +12,8 @@ const TopStelling = () => {
       <h2 className="text-center font-volkhov font-bold text-5xl capitalize mt-[10px]">
         Top Destinations
       </h2>
-      <div className="flex gap-[36px] justify-center mt-[60px] relative">
-        <div className="absolute right-14 bottom-10">
+      <div className="flex-col sm:flex-row  flex gap-[36px] items-center sm:items-start justify-center mt-[60px] relative">
+        <div className="hidden xl:block absolute right-14 bottom-10">
           <Image src={Decor} alt="decor" />
         </div>
         <DestinationCard

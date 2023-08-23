@@ -8,7 +8,7 @@ type Props = {
 
 const BookCard: React.FC<Props> = ({ image, title, description }) => {
   return (
-    <div className="flex gap-5 mt-10 items-center ">
+    <div className="flex-col items-center text-center sm:text-center sm:flex-row flex sm:gap-5 mt-10 sm:items-center ">
       <div className="w-12">
         <Image width={48} height={48} src={image} alt="group 7" />
       </div>
