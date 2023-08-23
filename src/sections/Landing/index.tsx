@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import Traveller from "@/images/traveller.png";
 import Plane from "@/images/plane.svg";
-import Heading from "@/images/Heading.png";
+import Heading from "@/images/heading.png";
 
 const Landing = () => {
   return (
