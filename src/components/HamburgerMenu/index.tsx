@@ -19,7 +19,7 @@ const HamburgerMenu: React.FC = () => {
 
   return (
     <div>
-      <AppBar position="static" color="transparent" className="shadow-none">
+      <AppBar position="static" color="transparent" elevation={0}>
         <IconButton
           edge="start"
           color="inherit"
