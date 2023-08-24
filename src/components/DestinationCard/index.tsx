@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Navigation from "@/images/navigation.png";
+import Navigation from "@/images/destinatin/navigation.png";
 
 type Props = {
   image: string;

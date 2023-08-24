@@ -1,8 +1,8 @@
 import React from "react";
-import Logo from "@/images/logo.svg";
+import Logo from "@/images/header/logo.svg";
 import Image from "next/image";
-import Vector from "@/images/vector.svg";
-import Decore from "@/images/decore.png";
+import Vector from "@/images/header/vector.svg";
+import Decore from "@/images/header/decore.png";
 import HamburgerMenu from "../HamburgerMenu";
 
 const Header = () => {
@@ -30,8 +30,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="lg:hidden">
-          <HamburgerMenu/>
-        
+          <HamburgerMenu />
         </div>
       </div>
     </header>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Greece from "@/images/greece.png";
+import Greece from "@/images/eastandfast/greece.png";
 import {
   BuildingOffice2Icon,
   HeartIcon,
@@ -8,10 +8,10 @@ import {
   PaperAirplaneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/24/outline";
-import Gurup from "@/images/gurup.png";
-import Gurup1 from "@/images/gurup1.png";
+import Gurup from "@/images/eastandfast/gurup.png";
+import Gurup1 from "@/images/eastandfast/gurup1.png";
 
-const GreeceCard = () => {
+const EasyAndFastCard = () => {
   return (
     <div className="w-[370] h-[400px] rounded-[36px] px-6 py-5 shadow-card relative">
       <div>
@@ -48,11 +48,11 @@ const GreeceCard = () => {
           <p>
             <span className="text-blue-400 pr-2">40%</span>completed
           </p>
-          <Image  src={Gurup1} alt="gurup1"/>
+          <Image src={Gurup1} alt="gurup1" />
         </div>
       </div>
     </div>
   );
 };
 
-export default GreeceCard;
+export default EasyAndFastCard;

@@ -1,5 +1,5 @@
 import BookCard from "@/components/BookCard";
-import GreeceCard from "@/components/GreceeCard";
+import EasyAndFastCard from "@/components/EasyAndFastCard";
 import React from "react";
 
 const EasyAndFast = () => {
@@ -14,24 +14,24 @@ const EasyAndFast = () => {
         </h2>
         <div className="justify-center flex-col items-center sm:flex-col flex">
           <BookCard
-            image="/images/group7.png"
+            image="/images/eastandfast/destination.png"
             title="Choose Destination"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus."
           />
           <BookCard
-            image="/images/group8.png"
+            image="/images/eastandfast/payment.png"
             title="Make Payment"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus."
           />
           <BookCard
-            image="/images/group9.png"
+            image="/images/eastandfast/selected.png"
             title="Reach Airport on Selected Date"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus."
           />
         </div>
       </div>
       <div className="hidden xl:block">
-        <GreeceCard />
+        <EasyAndFastCard />
       </div>
     </section>
   );

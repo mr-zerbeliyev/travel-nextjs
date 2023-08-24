@@ -2,9 +2,9 @@ import Button from "@/components/Button";
 import { PlayIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import React from "react";
-import Traveller from "@/images/traveller.png";
-import Plane from "@/images/plane.svg";
-import Heading from "@/images/heading.png";
+import Traveller from "@/images/landing/traveller.png";
+import Plane from "@/images/landing/plane.svg";
+import Heading from "@/images/landing/heading.png";
 
 const Landing = () => {
   return (

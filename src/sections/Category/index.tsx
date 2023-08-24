@@ -1,8 +1,8 @@
 import Card from "@/components/Card";
 import React from "react";
-import Group from "@/images/group.png";
-import Group1 from "@/images/group1.png";
-import Group3 from "@/images/group3.png";
+import Group from "@/images/category/calculated-weather.png";
+import Group1 from "@/images/category/best-flights.png";
+import Group3 from "@/images/category/local-events.png";
 
 const Category = () => {
   return (

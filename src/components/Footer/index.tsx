@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import Facebook from "@/images/facebook.png";
-import Instagrambg from "@/images/instagrambg.png";
-import Twitter from "@/images/twitter.png";
-import Google from "@/images/google.png";
-import Getiton from "@/images/getiton.png";
+import Facebook from "@/images/footer/facebook.png";
+import Instagrambg from "@/images/footer/instagrambg.png";
+import Twitter from "@/images/footer/twitter.png";
+import Google from "@/images/footer/google.png";
+import Getiton from "@/images/footer/getiton.png";
+import FooterItem from "../Footer/FooterItem";
 
 const Footer = () => {
   return (
@@ -18,48 +19,15 @@ const Footer = () => {
             Book your trip in minute, get full Control for much longer.
           </p>
         </div>
-        <div>
-          <h3 className="text-xl font-poppins font-bold text-black pb-8">
-            Company
-          </h3>
-          <p className="font-poppins text-lg font-medium text-category pb-3">
-            About
-          </p>
-          <p className="font-poppins text-lg font-medium text-category  pb-3">
-            Carrers
-          </p>
-          <p className="font-poppins text-lg font-medium text-category  pb-3">
-            Mobile
-          </p>
-        </div>
-        <div>
-          <h3 className="text-xl font-poppins font-bold text-black pb-8">
-            Contact
-          </h3>
-          <p className="font-poppins text-lg font-medium text-category  pb-3">
-            Help/FAQ
-          </p>
-          <p className="font-poppins text-lg font-medium text-category  pb-3">
-            Press
-          </p>
-          <p className="font-poppins text-lg font-medium text-category  pb-3">
-            Affilates
-          </p>
-        </div>
-        <div>
-          <h3 className="text-xl font-poppins font-bold text-black pb-8">
-            More
-          </h3>
-          <p className="font-poppins text-lg font-medium text-category  pb-3">
-            Airlinefees
-          </p>
-          <p className="font-poppins text-lg font-medium text-category  pb-3">
-            Airline
-          </p>
-          <p className="font-poppins text-lg font-medium text-category  pb-3">
-            Low fare tips
-          </p>
-        </div>
+        <FooterItem title="Company" items={["About", "Carrers", "Mobile"]} />
+        <FooterItem
+          title="Contact"
+          items={["Help/FAQ", "Press", "Affilates"]}
+        />
+        <FooterItem
+          title="More"
+          items={["Airlinefees", "Airline", "Airline"]}
+        />
         <div className="flex flex-col items-center  justify-around">
           <div className="flex justify-center items-center lg:justify-start gap-4  pb-3">
             <Image width={41} height={41} src={Facebook} alt="facebook" />

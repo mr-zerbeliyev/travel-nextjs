@@ -1,6 +1,6 @@
 import DestinationCard from "@/components/DestinationCard";
 import React from "react";
-import Decor from "@/images/decor.png";
+import Decor from "@/images/topStelling/decor.png";
 import Image from "next/image";
 
 const TopStelling = () => {
@@ -17,19 +17,19 @@ const TopStelling = () => {
           <Image src={Decor} alt="decor" />
         </div>
         <DestinationCard
-          image="/images/roma.png"
+          image="/images/topstelling/roma.png"
           capital="Rome, Italty"
           price="$5,42k"
           day="10 Days Trip"
         />
         <DestinationCard
-          image="/images/london.jpeg"
+          image="/images/topstelling/london.jpeg"
           capital="London, UK"
           price="$5,42k"
           day="12 Days Trip"
         />
         <DestinationCard
-          image="/images/europe.png"
+          image="/images/topstelling/europe.png"
           capital="Full Europe"
           price="$15k"
           day="28 Days Trip"
