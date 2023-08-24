@@ -61,7 +61,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex flex-col sm:items-start">
-          <div className="flex gap-4  pb-3">
+          <div className="flex justify-center items-center lg:justify-start gap-4  pb-3">
             <Image width={41} height={41} src={Facebook} alt="facebook" />
             <Image width={41} height={41} src={Instagrambg} alt="instagram" />
             <Image width={41} height={41} src={Twitter} alt="twitter" />
