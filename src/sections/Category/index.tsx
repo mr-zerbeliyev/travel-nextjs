@@ -13,14 +13,14 @@ const Category = () => {
       <h1 className="text-center font-volkhov font-bold text-5xl capitalize mt-[10px]">
         We Offer Best Services
       </h1>
-      <div className="flex-col mt-10 mb-10 lg:flex-row items-center md:items-start sm:flex-wrap md:flex-row flex justify-center gap-10 relative z-40">
+      <div className="flex-col mt-10 mb-10 lg:flex-row 2xl:mx-auto 2xl:w-[1300px] items-center md:items-start sm:flex-wrap md:flex-row flex justify-center gap-10 relative z-40">
         <Card
           image={Group}
           title="Calculated Weather "
           description="Built Wicket longer admire do barton vanity itself do in it."
         />
         <Card
-        className="z-40 bg-white"
+          className="z-40 bg-white shadow-card"
           image={Group1}
           title="Best Flights "
           description="Engrossed listening. Park gate sell they west hard for the."

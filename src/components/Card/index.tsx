@@ -10,7 +10,7 @@ type Props = {
 
 const Card = (props: Props) => {
   return (
-    <div className={`px-[50px] w-[276px] h-[314px] flex flex-col items-center text-center rounded-es-[35px] shadow-card z-40 ${props.className}`}>
+    <div className={`px-[50px] w-[276px] h-[314px] flex flex-col items-center text-center rounded-[35px]  z-40 ${props.className}`}>
       <div className="w-[166px] h-[153px] flex justify-center items-center">
         <Image src={props.image} alt={props.title} />
       </div>

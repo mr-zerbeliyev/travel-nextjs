@@ -38,7 +38,7 @@ const GreeceCard = () => {
           </div>
         </div>
       </div>
-      <div className="md:hidden lg:block absolute flex -right-20 bottom-20 bg-white rounded-xl w-[263px] h-[129px] shadow-card border py-4 pl-2">
+      <div className="md:hidden lg:block absolute flex -right-20 bottom-20 bg-white rounded-xl w-[263px]  shadow-card border py-4 pl-2">
         <div>
           <Image className="rounded-full" src={Gurup} alt="gurup" />
         </div>
