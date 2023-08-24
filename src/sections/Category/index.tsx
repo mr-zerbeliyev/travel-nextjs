@@ -13,7 +13,7 @@ const Category = () => {
       <h1 className="text-center font-volkhov font-bold text-5xl capitalize mt-[10px]">
         We Offer Best Services
       </h1>
-      <div className="flex-col mt-10 mb-10 items-center md:items-start sm:flex-wrap md:flex-row flex justify-center gap-10 relative z-40">
+      <div className="flex-col mt-10 mb-10 lg:flex-row items-center md:items-start sm:flex-wrap md:flex-row flex justify-center gap-10 relative z-40">
         <Card
           image={Group}
           title="Calculated Weather "
@@ -35,7 +35,7 @@ const Category = () => {
           title="Calculated Weather "
           description="We deliver outsourced aviation services for military customers"
         />
-        <div className="hidden xl:block  absolute w-[100px] h-[100px] bg-orange rounded-tl-[30px] rounded-ee-md -bottom-7 left-80 z-0" />
+        <div className="hidden 2xl:block  absolute w-[100px] h-[100px] bg-orange rounded-tl-[30px] rounded-ee-md -bottom-7 left-80 z-0" />
       </div>
     </section>
   );

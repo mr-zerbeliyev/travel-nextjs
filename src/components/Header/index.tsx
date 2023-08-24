@@ -29,7 +29,7 @@ const Header = () => {
             </div>
           </ul>
         </div>
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <HamburgerMenu/>
         
         </div>
